@@ -1,0 +1,748 @@
+fileFormatVersion: 2
+guid: d8ff9e5f742d8fc4cae87ac5821985ee
+timeCreated: 1484527958
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NES - Super Mario Bros - Font(Transparent)_0
+    21300002: NES - Super Mario Bros - Font(Transparent)_1
+    21300004: NES - Super Mario Bros - Font(Transparent)_2
+    21300006: NES - Super Mario Bros - Font(Transparent)_3
+    21300008: NES - Super Mario Bros - Font(Transparent)_4
+    21300010: NES - Super Mario Bros - Font(Transparent)_5
+    21300012: NES - Super Mario Bros - Font(Transparent)_6
+    21300014: NES - Super Mario Bros - Font(Transparent)_7
+    21300016: NES - Super Mario Bros - Font(Transparent)_8
+    21300018: NES - Super Mario Bros - Font(Transparent)_9
+    21300020: NES - Super Mario Bros - Font(Transparent)_10
+    21300022: NES - Super Mario Bros - Font(Transparent)_11
+    21300024: NES - Super Mario Bros - Font(Transparent)_12
+    21300026: NES - Super Mario Bros - Font(Transparent)_13
+    21300028: NES - Super Mario Bros - Font(Transparent)_14
+    21300030: NES - Super Mario Bros - Font(Transparent)_15
+    21300032: NES - Super Mario Bros - Font(Transparent)_16
+    21300034: NES - Super Mario Bros - Font(Transparent)_17
+    21300036: NES - Super Mario Bros - Font(Transparent)_18
+    21300038: NES - Super Mario Bros - Font(Transparent)_19
+    21300040: NES - Super Mario Bros - Font(Transparent)_20
+    21300042: NES - Super Mario Bros - Font(Transparent)_21
+    21300044: NES - Super Mario Bros - Font(Transparent)_22
+    21300046: NES - Super Mario Bros - Font(Transparent)_23
+    21300048: NES - Super Mario Bros - Font(Transparent)_24
+    21300050: NES - Super Mario Bros - Font(Transparent)_25
+    21300052: NES - Super Mario Bros - Font(Transparent)_26
+    21300054: NES - Super Mario Bros - Font(Transparent)_27
+    21300056: NES - Super Mario Bros - Font(Transparent)_28
+    21300058: NES - Super Mario Bros - Font(Transparent)_29
+    21300060: NES - Super Mario Bros - Font(Transparent)_30
+    21300062: NES - Super Mario Bros - Font(Transparent)_31
+    21300064: NES - Super Mario Bros - Font(Transparent)_32
+    21300066: NES - Super Mario Bros - Font(Transparent)_33
+    21300068: NES - Super Mario Bros - Font(Transparent)_34
+    21300070: NES - Super Mario Bros - Font(Transparent)_35
+    21300072: NES - Super Mario Bros - Font(Transparent)_36
+    21300074: NES - Super Mario Bros - Font(Transparent)_37
+    21300076: NES - Super Mario Bros - Font(Transparent)_38
+    21300078: NES - Super Mario Bros - Font(Transparent)_39
+    21300080: NES - Super Mario Bros - Font(Transparent)_40
+    21300082: NES - Super Mario Bros - Font(Transparent)_41
+    21300084: NES - Super Mario Bros - Font(Transparent)_42
+    21300086: NES - Super Mario Bros - Font(Transparent)_43
+    21300088: NES - Super Mario Bros - Font(Transparent)_44
+    21300090: NES - Super Mario Bros - Font(Transparent)_45
+    21300092: NES - Super Mario Bros - Font(Transparent)_46
+    21300094: NES - Super Mario Bros - Font(Transparent)_47
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_15
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_23
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_27
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_28
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_30
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_31
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_35
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_37
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_42
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_43
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_44
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_45
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_46
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Font(Transparent)_47
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
