@@ -24,25 +24,21 @@ public abstract class Enemy : MonoBehaviour {
 		
     }
 
-    public int GetScore()
-    {
+    public int GetScore() {
         return scoreValue;
     }
 
-    public virtual void HitByPlayer()
-    {
+    public virtual void HitByPlayer() {
         anim.SetBool("Hit", true);
         rb.velocity = Vector3.zero;
         dead = true;
-        foreach (Collider2D collider in myColliders)
-        {
+        foreach (Collider2D collider in myColliders) {
             Destroy(collider);
         }
         rb.isKinematic = true;
     }
 
-    public virtual void HitPlayer(PlayerController player)
-    {
+    public virtual void HitPlayer(PlayerController player) {
         player.Shrink();
     }
 

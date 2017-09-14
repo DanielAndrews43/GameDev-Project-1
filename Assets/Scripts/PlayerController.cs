@@ -89,7 +89,7 @@ public class PlayerController : MonoBehaviour {
             anim.SetFloat("vSpeed", Mathf.Abs(rb.velocity.y));
         }
         if (moveX < 0 && facingRight)
-        {
+		{
             Flip();
         }
         else if (moveX > 0 && !facingRight)
@@ -189,8 +189,7 @@ public class PlayerController : MonoBehaviour {
                     enemy.HitByPlayer();
                     uiManager.UpdateScore(enemy.GetScore());
                 }
-                else
-                {
+                else {
                     if (!playerHit) {
                         enemy.HitPlayer(this);
                     }
