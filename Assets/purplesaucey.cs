@@ -61,7 +61,7 @@ public class purplesaucey : Item {
 		{
 			pickedUp = true;
 		}
-		player.Grow(player.superMario);
+		player.Widen(player.fatMario);
 		Destroy(gameObject);
 	}
 

@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour {
     public Mario mario;
     //Super Mario
     public SuperMario superMario;
+	//Fat Mario
+	public FatMario fatMario;
     //Walking state
     ActionState walking;
     //Jumping state
@@ -44,6 +46,7 @@ public class PlayerController : MonoBehaviour {
     Rigidbody2D rb;
     GameObject marioGO;
     GameObject superMarioGO;
+	GameObject fatMarioGO;
     GameObject duckingMarioGO;
 
     int playerLayer = 12;
@@ -53,6 +56,7 @@ public class PlayerController : MonoBehaviour {
     void Start () {
         marioGO = GameObject.Find("Little Mario");
         superMarioGO = GameObject.Find("Super Mario");
+		fatMarioGO = GameObject.Find ("Fat Mario");
         duckingMarioGO = GameObject.Find("Ducking Mario");
         uiManager = UIManager.uiManager;
         rb = gameObject.GetComponent<Rigidbody2D>();
@@ -61,6 +65,7 @@ public class PlayerController : MonoBehaviour {
         //Initialize states
         mario = new Mario(this, marioGO);
         superMario = new SuperMario(this, superMarioGO, mario);
+		fatMario = new FatMario (this, fatMarioGO, superMario);
 
         /*walking = new Walking(this);
         jumping = new Jumping(this);
@@ -74,6 +79,7 @@ public class PlayerController : MonoBehaviour {
         //Always start in Little Mario
         duckingMarioGO.SetActive(false);
         superMarioGO.SetActive(false);
+		fatMarioGO.SetActive (false);
     }
 
     // Update is called once per frame
@@ -116,6 +122,11 @@ public class PlayerController : MonoBehaviour {
         marioState.Enter();
     }
 
+	public void Widen(Mario nextMario) {
+		marioState = marioState.Exit (nextMario);
+		marioState.Enter ();
+	}
+
     public void Shrink()
     {
         marioState = marioState.Exit(marioState.prevMario);
@@ -136,6 +147,7 @@ public class PlayerController : MonoBehaviour {
 
         marioGO.layer = playerInvincibleLayer;
         superMarioGO.layer = playerInvincibleLayer;
+		fatMarioGO.layer = playerInvincibleLayer;
         duckingMarioGO.layer = playerInvincibleLayer;
 
         //rb.velocity = Vector3.zero;
@@ -145,6 +157,7 @@ public class PlayerController : MonoBehaviour {
 
         marioGO.layer = playerLayer;
         superMarioGO.layer = playerLayer;
+		fatMarioGO.layer = playerLayer;
         duckingMarioGO.layer = playerLayer;
 
         playerHit = false;
