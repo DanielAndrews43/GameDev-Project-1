@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour {
         superMarioGO = GameObject.Find("Super Mario");
 		fatMarioGO = GameObject.Find ("Fat Mario");
         duckingMarioGO = GameObject.Find("Ducking Mario");
-        uiManager = UIManager.uiManager;
+		uiManager = UIManager.uiManager;
         rb = gameObject.GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
         //anim = this.gameObject.GetComponent<Animator>();

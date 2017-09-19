@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour {
     GameObject Timer;
     List<Image> TimerDigits = new List<Image>();
     List<Image> LoadingLivesDigit = new List<Image>();
+	Text livesLabel;
     string pathToSprites = "NES - Super Mario Bros - Font(Transparent)";
     public Object assetTest;
     Sprite[] numberSprites;
@@ -31,6 +32,7 @@ public class UIManager : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+
         if (uiManager == null)
         {
             uiManager = this;
@@ -39,7 +41,7 @@ public class UIManager : MonoBehaviour {
         {
             Destroy(gameObject);
         }
-        
+		livesLabel = GameObject.Find("LivesLabel").GetComponent<Text>();
         LoadingBackground = GameObject.Find("Loading_Background");
         LoadingLives = GameObject.Find("Loading_Lives").GetComponent<Image>();
         LoadingLivesDigit.Add(LoadingLives);
@@ -106,8 +108,7 @@ public class UIManager : MonoBehaviour {
         }
     }
 
-    public void LoadScene()
-    {
+    public void LoadScene() {
         playerTime = 330;
         SetDigits(TimerDigits, playerTime);
         StopCoroutine("KeepTime");
@@ -133,16 +134,15 @@ public class UIManager : MonoBehaviour {
 
     public void TakeLife() {
         playerLives -= 1;
+		livesLabel.text = "Lives: " + playerLives; 
         SetDigits(LoadingLivesDigit, playerLives);
-        if (playerLives == 0)
-        {
+        if (playerLives == 0) {
             print("load menu");
             //Do game over scene and back to Menu Scene?
             SceneManager.LoadScene("Menu Scene");
             playerLives = 3;
         }
-        else
-        {
+        else {
             print("reloading!");
             LoadScene();
         }
