@@ -144,7 +144,7 @@ public class UIManager : MonoBehaviour {
         }
         else {
             print("reloading!");
-            LoadScene();
+			LoadScene ();
         }
     }
 
